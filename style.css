@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+
+
+/* login-register */
+ 
+
+.body{
+	background-image: url('./img/04.jpg.png');
+	background-size: cover;
+}
+.bodycolor{
+	background-color: #f9f3ee;
+}
+
+textarea:focus, input:focus {
+	outline: nome;
+}
+
+a {
+	font-size: .8rem;
+}
+
+a:hover{
+	color: #085588;
+}
+
+#longin-conteiner{
+	background-color: #fff;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 10vh;
+	border-radius: 10px;
+	text-align: center;
+}
+h1 {
+	color: #ee5a6f;
+}
+
+form {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+label, input {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	border-bottom: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+input:focus{
+	border-bottom: 2px solid #ffa500;
+}
+
+
+#password-forgot {
+	text-align: right;
+	display: block;
+}
+
+#subscriber {
+	margin-top: 10px;
+	display: block;
+}
+
+input[type="submit"] {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 30px;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263);
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #1B2230;
+	transition: .5s;
+}
+
+
+
+/*Tela Inicial-Menu*/
+
+
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right,  #f29263, #ee5a6f); 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover{
+    color: #000;
+}
+
+#span{
+    color: #000000;
+}
+
+.sidenav .closebt{
+    padding: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#menu{
+	background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263);
+    width: 100%;
+    padding: 10px; 
+    text-align: left;
+    display: flex;
+}
+
+.submenu{
+    height: 30px;
+    width: 1000;
+
+}
+
+.submenu a{
+    
+    text-transform: uppercase;
+    padding:8px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #000000;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: .5s;
+    text-align: center;
+}
+
+.submenu a:hover{
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+}
+
+#log{
+	margin-left: 100%;
+
+}
+
+/*RegistrarLivro*/
+.numeroP {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding : 1em;
+
+}/*Remove seta input number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
